@@ -101,9 +101,21 @@ Dans la console Veeam VMware Cloud Director cliquez sur -> `JOBS -> CREATE`, une
 
 ![VCD Backup Job Veeam creation](images/vcd_veeam_backup_job_creation.png){.thumbnail .h-600 .w-400}
 
-![VCD Backup Job Veeam creation](images/vcd_veeam_backup_job_creation_2.png){.thumbnail .h-600 .w-400}
+Vous avez le choix entre 3 Repository en fonction de l'offre choisi dans votre pack :
 
-Une fois les élémentes definis (Job name, description, retention), Cliquez sur `NEXT`
+1. Bronze Repo : STD Object Storage
+2. Silver Repo : STD Object storage - with Offsite
+3. Gold Repo : High perf Object storage - with Offsite - 14 points immutability
+
+![VCD Backup Job Veeam creation](images/vcd_veeam_backup_jobs.png){.thumbnail .h-600 .w-400}
+
+Ces Repository font references à ceux que vous retrouvez dans votre **"Dashboard" principal Veeam VCD**
+
+Voir capture ci-dessous ->
+
+![VCD Backup Job Veeam creation](images/vcd_veeam_backup_repo.png){.thumbnail .h-600 .w-400}
+
+Une fois retourné à la fenetre, avec les élémentes definis (Job name, description, retention), Cliquez sur `NEXT`
 
 ![VCD Backup Job Veeam creation](images/vcd_veeam_backup_job_creation_3.png){.thumbnail .h-600 .w-400}
 
